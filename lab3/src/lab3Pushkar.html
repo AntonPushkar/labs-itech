@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="lab3PushkarStyle.css">
+    <script rel="script" src="lab3Pushkar.js"></script>
+</head>
+<body>
+<div class="container">
+  <select class="cars-selector" onclick="handleCarSelect(this)">
+    <option>Bugatti</option>
+    <option>Lamborghini</option>
+    <option>Subaru</option>
+    <option>Mustang</option>
+    <option>Porsche</option>
+  </select>
+  <div class="image-container">
+    <img class="image" src="img/bugatti.jpg" alt="space">
+  </div>
+  <div class="button-container">
+    <form class="input-form">
+      <input type="text" class="settings width-settings" name="widthSettings" placeholder="Width">
+      <input type="text" class="settings height-settings" name="heightSettings" placeholder="Height">
+      <input type="text" class="settings border-width" name="borderWidth" placeholder="Border width">
+      <input type="text" class="settings alt-text" name="altName" placeholder="alt name">
+      <button class="submit-button" type="button" onclick="handleSetSettings()">Click</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
