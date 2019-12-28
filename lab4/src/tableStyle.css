@@ -1,0 +1,11 @@
+.table {
+    border: 1px;
+}
+
+.table-definition-name {
+    background-color: #5d6cff;
+}
+
+.table-row {
+    background-color: #ff0000;
+}
